@@ -1,0 +1,180 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: env(safe-area-inset-top);
+    padding: 10px 90px; /* Use padding instead of margin for space around content */
+    position: fixed; /* Sticky navbar */
+    top: 0;
+    margin: 0px; 
+    width: 100vw;/* Make navbar take full width */
+    background-color: #1F0016; /* Background color for navbar */
+    z-index: 1001;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.nav-connect{
+    padding: 20px 40px;
+    border-radius: 40px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.0%);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-mob-close{
+    display: none;
+}
+
+.nav-mob-open{
+    display: none;
+}
+
+.nav-menu {
+    right: -350px;
+    transition: right 0.5s;
+  }
+  
+  .nav-menu.active {
+    right: 0;
+  }
+  
+
+@media (max-width: 1200px) {
+    .navbar {
+        margin: 20px 50px;
+        padding: 10px 50px;
+    }
+
+    .nav-menu {
+        gap: 30px;
+    }
+
+    .nav-connect {
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        margin: 20px 30px;
+        padding: 10px 30px;
+    }
+
+    .nav-menu {
+        gap: 20px;
+        font-size: 18px;
+    }
+
+    .nav-connect {
+        padding: 12px 25px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 768px){
+    .navbar{
+        margin: 0px 0px;
+        padding: 10px 0px;
+        width: 100vw; /* Ensure full width on mobile */
+        background-color: #1F0016; /* Background color */
+        position: fixed; /* Makes it sticky on scroll */
+        top: 0; /* Sticks to the top */
+        left: 0; /* Aligns to the left edge */
+        right: 0; /* Aligns to the right edge */
+        z-index: 1001;
+    }
+
+    .nav-connect{
+        display: none;
+    }
+
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 30px;
+    }
+
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #1F0016;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+    }
+
+    .nav-menu li{
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        margin: 20px 10px;
+    }
+
+    .nav-menu {
+        width: 100%; /* Full width for smaller screens */
+        right: -100%; /* Hide the menu off-screen by default */
+    }
+
+    .nav-menu.active {
+        right: 0; /* Slide the menu into view */
+    }
+
+    .nav-menu li {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .nav-mob-open,
+    .nav-mob-close {
+        right: 10px; /* Adjust the position of the mobile menu buttons */
+    }
+}

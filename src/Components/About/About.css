@@ -1,0 +1,265 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 40px 150px;
+    margin-left: 100px;
+  }
+  
+  .about-title {
+    position: relative;
+  }
+  
+  .about-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+  }
+  
+  .about-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .about-sections {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+  }
+  
+  .about-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-left img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .about-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .about-para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  
+  .about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .about-skill {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+  }
+  
+  .about-skill p {
+    min-width: 150px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .about-skill hr {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+  }
+  
+  .about-skill:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  
+  .about-achievements {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  
+  .about-achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+  }
+  
+  .about-achievement h1 {
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .about-achievement p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .about-achievement:hover {
+    transform: scale(1.12);
+    transition: 0.5s;
+  }
+  
+  /* Responsive Design for Tablets */
+  @media (max-width: 1024px) {
+    .about {
+      margin: 60px 80px;
+      gap: 60px;
+    }
+  
+    .about-title h1 {
+      font-size: 60px;
+    }
+  
+    .about-sections {
+      gap: 60px;
+    }
+  
+    .about-left img {
+      max-width: 350px;
+    }
+  
+    .about-right {
+      gap: 30px;
+    }
+  
+    .about-para {
+      font-size: 18px;
+    }
+  
+    .about-skill p {
+      font-size: 18px;
+    }
+  
+    .about-achievement h1 {
+      font-size: 50px;
+    }
+  
+    .about-achievement p {
+      font-size: 20px;
+    }
+  }
+  
+  /* Responsive Design for Phones */
+  @media (max-width: 768px) {
+    .about {
+      margin: 40px 20px;
+      gap: 40px;
+    }
+  
+    .about-title h1 {
+      font-size: 48px;
+      padding: 0px 20px;
+    }
+  
+    .about-title img {
+      width: 120px;
+    }
+  
+    .about-sections {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .about-left img {
+      max-width: 300px;
+    }
+  
+    .about-right {
+      gap: 20px;
+    }
+  
+    .about-para {
+      font-size: 16px;
+      text-align: justify;
+    }
+  
+    .about-skill {
+      gap: 20px;
+    }
+  
+    .about-skill p {
+      min-width: 120px;
+      font-size: 16px;
+    }
+  
+    .about-skill hr {
+      height: 6px;
+    }
+  
+    .about-achievements {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .about-achievement h1 {
+      font-size: 40px;
+    }
+  
+    .about-achievement p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Responsive Design for Small Phones */
+  @media (max-width: 480px) {
+    .about {
+      margin: 30px 10px;
+      gap: 30px;
+    }
+  
+    .about-title h1 {
+      font-size: 36px;
+    }
+  
+    .about-title img {
+      width: 100px;
+    }
+  
+    .about-left img {
+      max-width: 250px;
+    }
+  
+    .about-para {
+      font-size: 14px;
+    }
+  
+    .about-skill p {
+      min-width: 100px;
+      font-size: 14px;
+    }
+  
+    .about-achievement h1 {
+      font-size: 32px;
+    }
+  
+    .about-achievement p {
+      font-size: 16px;
+    }
+  }
