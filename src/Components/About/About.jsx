@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-                <p>I’m a passionate frontend developer with over two (2) years of experience building responsive and interactive web applications. My expertise lies in turning complex problems into intuitive designs, using HTML, CSS, JavaScript, and modern frameworks like React.js. I thrive on solving challenges and continuously improving my skills in both UI design and frontend development.</p>
+                <p>I’m a passionate frontend developer with over two (3) years of experience building responsive and interactive web applications. My expertise lies in turning complex problems into intuitive designs, using HTML, CSS, JavaScript, and modern frameworks like React.js. I thrive on solving challenges and continuously improving my skills in both UI design and frontend development.</p>
                 <p>I’m currently exploring backend development with Django and Firebase, and I’m always excited to learn new technologies that push the boundaries of web development.</p>
             </div>
             <div className="about-skills">
@@ -31,7 +31,7 @@ const About = () => {
       </div>
       <div className="about-achievements">
         <div className="about-achievement">
-            <h1>2+</h1>
+            <h1>3+</h1>
             <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr/>
@@ -41,7 +41,7 @@ const About = () => {
         </div>
         <hr/>
         <div className="about-achievement">
-            <h1>15+</h1>
+            <h1>20+</h1>
             <p>HAPPY CLIENTS</p>
         </div>
       </div>
