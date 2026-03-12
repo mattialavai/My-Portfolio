@@ -2,6 +2,7 @@ import project1_img from '../assets/project_1.png'
 import project2_img from '../assets/project_2.png'
 import project3_img from '../assets/project_3.png'
 import project4_img from '../assets/project_4.png'
+import project5_img from '../assets/project_7.png';
 /*import project5_img from '../assets/project_5.svg'
 import project6_img from '../assets/project_6.svg' */
 
@@ -34,6 +35,13 @@ const mywork_data = [
         desc: "A simple and interactive Quote Machine app built with React. This app generates random quotes and allows users to share them on Twitter. Perfect for inspiration and motivation!..",
         github_repo: "https://github.com/mattialavai/Quote-Machine-app"
     },
+    {
+    w_no: 5,
+    w_name: "FlowDesk – Smart Task & Team Management Dashboard",
+    w_img: project5_img,
+    desc: "FlowDesk is a modern, responsive, and user-friendly task & team management dashboard built with React + Vite. Designed for productivity, it allows teams to manage tasks, collaborate efficiently, and stay in sync with a clean and intuitive UI...",
+    github_repo: "https://github.com/mattialavai/FlowDesk"
+  },
     /*{
         w_no:5,
         w_name:"Little Lemon Booking Website",

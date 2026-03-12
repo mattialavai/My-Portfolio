@@ -1,34 +1,34 @@
 const Services_Data = [
-    {
-        s_no:"01",
-        s_name:"Web Development",
-        s_desc:"I create fast, responsive, and SEO-optimized websites that provide an excellent user experience across all devices. From simple landing pages to complex web applications, I’ll bring your vision to life...."
-    },
-    {
-        s_no:"02",
-        s_name:"UI/UX Design:",
-        s_desc:"I design user-centered interfaces that are both visually appealing and highly functional. My design process prioritizes usability and user experience, ensuring that your website not only looks great but also engages users effectively..."
-    },
-    {
-        s_no:"03",
-        s_name:"Website Maintenance & Updates",
-        s_desc:"I provide ongoing support to ensure your website stays updated, secure, and fully functional..."
-    },
-    {
-        s_no:"04",
-        s_name:"Mobile App Development",
-        s_desc:"I build user-friendly mobile applications for both iOS and Android platforms. Whether it's a productivity app or an e-commerce platform, I ensure the app is fast, secure, and provides an excellent user experience on mobile devices..."
-    },
-    {
-        s_no:"05",
-        s_name:"Digital Marketing & SEO",
-        s_desc:"I offer digital marketing services, including SEO, to boost your online visibility and drive targeted traffic to your site...."
-    },
-    {
-        s_no:"06",
-        s_name:"Web & App Consultation",
-        s_desc:" offer expert advice on web and app development strategies, guiding you from concept to execution for success..."
-    },
-]
- 
+  {
+    s_no: "01",
+    s_name: "Frontend Development",
+    s_desc: "Build fast, responsive, and scalable websites and web applications using React, Next.js, and modern JavaScript frameworks."
+  },
+  {
+    s_no: "02",
+    s_name: "UI/UX Design",
+    s_desc: "Design intuitive, user-centered interfaces and interactive prototypes that provide an excellent user experience."
+  },
+  {
+    s_no: "03",
+    s_name: "Responsive Web Design",
+    s_desc: "Ensure seamless website performance across all devices, from desktops to smartphones, with optimized layouts and design."
+  },
+  {
+    s_no: "04",
+    s_name: "Web & App Consultation",
+    s_desc: "Provide expert guidance on web and mobile app strategies, helping you plan, design, and execute digital projects effectively."
+  },
+  {
+    s_no: "05",
+    s_name: "Mobile App Development",
+    s_desc: "Develop fast, user-friendly mobile apps for iOS and Android platforms with a focus on usability and performance."
+  },
+  {
+    s_no: "06",
+    s_name: "SEO & Digital Marketing",
+    s_desc: "Boost your online presence with SEO-friendly websites and digital marketing strategies that attract and retain visitors."
+  }
+];
+
 export default Services_Data;
